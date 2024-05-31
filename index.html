@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Strangers</title>
+    <meta content="UTF-08" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body onload="makeLines()">
+    <div class="section">
+        <div class="booking">
+            <div class="bottom">
+                <div class="title">
+                    <h1 class="title-text">STRANGERS</h1>
+                    <p class="title-athor">JOSUE A. DE AGUIAR</p>
+                </div>
+                <div class="options">
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(0)" class="option">Prologue<br />Cole Harper</input:buttom>
+                    </div>
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(1)" class="option">Indroduction<br />Cole's friends</input:buttom>
+                    </div>
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(2)" class="option">Conflict<br />Cole's problems</input:buttom>
+                    </div>
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(3)" class="option">Plot sequence<br />Cole's solutions
+                        </input:buttom>
+                    </div>
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(4)" class="option">Narrative style<br />Cole's connections
+                        </input:buttom>
+                    </div>
+                    <div class="optionDiv">
+                        <input:buttom onclick="turn(5)" class="option">Foreshadowing<br />Freytag Pyramid</input:buttom>
+                    </div>
+                </div>
+            </div>
+            <div class="book">
+                <div class="cover" id="cover">
+                    <div class="page pg1" id="page0">0</div>
+                    <div class="page pg-1" id="page1">1</div>
+                    <div class="page hidden" id="page2">2</div>
+                    <div class="page hidden" id="page3">3</div>
+                    <div class="page hidden" id="page4">4</div>
+                    <div class="page hidden" id="page5">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="mindmap" id="mindmap">
+            <div class="member" id="main">
+                <div class="square">Indigenous People</div>
+                <div class="member mem1">
+                    <div class="square"></div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem2">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem3">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem4">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem5">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem6">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem7">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem1">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+                <div class="member mem8">
+                    <div class="square">Indigenous People</div>
+                    <div class="member mem2">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem3">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem4">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem5">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem6">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem7">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                    <div class="member mem8">
+                        <div class="square">Indigenous People</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg id="rec" class="rec">
+        </svg>
+        <div class="Xbtn" id="Xbtn" onclick="focusing(this)">X</div>
+    </div>
+</body>
+
+</html>
